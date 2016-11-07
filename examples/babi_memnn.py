@@ -208,5 +208,3 @@ answer.fit([inputs_train, queries_train, inputs_train], answers_train,
            batch_size=32,
            nb_epoch=120,
            validation_data=([inputs_test, queries_test, inputs_test], answers_test))
-
-print 'Test'
